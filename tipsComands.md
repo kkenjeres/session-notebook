@@ -1,16 +1,16 @@
-git init 
-git add . 
-git add --all
-git commit -m ''
-git status
-git branch
-git branch -b test
-git branch -D
-git checkout test
-git checkout -b new
-git merge
-git remote set-url origin
-git push -u origin 
-git remote -v 
-git switch -c “name of the new branch” 
-git pull
+- `git init`: Initialize new Git repository.
+- `git add .`: Stage current directory changes.
+- `git add --all`: Stage all changes.
+- `git commit -m 'message'`: Record staged snapshot with message.
+- `git status`: Show repository status.
+- `git branch`: List branches.
+- `git branch -b test`: Incorrect command (likely meant `git checkout -b test` or `git branch test`).
+- `git branch -D`: Delete branch forcefully.
+- `git checkout test`: Switch to branch 'test'.
+- `git checkout -b new`: Create and switch to 'new' branch.
+- `git merge`: Merge branches into current.
+- `git remote set-url origin`: Set remote repository URL.
+- `git push -u origin`: Push commits to remote, set upstream.
+- `git remote -v`: List remote connections.
+- `git switch -c “name of the new branch”`: Create and switch to new branch.
+- `git pull`: Fetch and merge remote changes.
